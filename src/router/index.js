@@ -107,7 +107,7 @@ const router = createRouter({
             ]
         },
         {
-            path: '/landing',
+            path: '/formulario/:id?',
             name: 'landing',
             component: () => import('@/views/pages/Landing.vue')
         },
